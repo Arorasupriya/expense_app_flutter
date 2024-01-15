@@ -28,7 +28,7 @@ class SplashState extends State<Splash> {
     });
   }
   //endregion
-
+  
   //region PrivateMethods
   checkUserLogin() async {
     SharedPreferences pre = await SharedPreferences.getInstance();
